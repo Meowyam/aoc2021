@@ -8,7 +8,7 @@ main = do
   let result = seeNext toInt 0
   print "day 1 part 1"
   print result
-  print "day 2 part 2"
+  print "day 1 part 2"
   let result2 = seeNext (windows toInt []) 0
   print result2
 
