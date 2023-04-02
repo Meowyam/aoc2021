@@ -1,0 +1,22 @@
+name:                day2parse 
+version:             0.1.0.0
+
+cabal-version:       >=1.10
+build-type:          Simple
+
+library
+  build-depends:      base >= 4.14 && < 5
+                      ,text
+                      ,transformers
+                      ,megaparsec >= 9.2.1
+  hs-source-dirs:     .
+  default-language:   Haskell2010
+
+executable day2parse
+  main-is:            day2parse.hs
+  build-depends:      base >= 4.14 && < 5
+                      ,text
+                      ,transformers
+                      ,megaparsec >= 9.2.1
+                      ,day2parse
+  default-language:   Haskell2010
